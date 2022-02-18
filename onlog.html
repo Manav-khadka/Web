@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>mathematic</title>
+    <link rel="stylesheet" href="maths.css" />
+
+    <style>
+        #whatsapp {
+            position: fixed;
+            bottom: 10px;
+            float: right;
+        }
+
+        #whatsappimg {
+            width: 20%;
+        }
+    </style>
+</head>
+<body id="body">
+<div class="heading">
+
+    <h>Mathematics</h>
+
+</div>
+<nav>
+
+    <a href="onlog.html">Home</a>
+    <a href="google.html">google</a>
+    <a href="query.html">Contact us</a>
+    <a href="home.html" id="log">log out</a>
+
+</nav>
+
+
+<div id="whatsapp">
+
+    <a href="https://wa.me/917493816564">
+        <img id="whatsappimg"
+            src="data:image/png;base64,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">
+    </a>
+</div>
+
+<body id="body">
+    <div class="sq1">
+        <h id="sq1"> QUOTE'S... </h>
+        <br>
+        <br>
+        <img class="img"
+            src="https://quotefancy.com/media/wallpaper/3840x2160/2043689-Bertrand-Russell-Quote-Mathematics-is-only-the-art-of-saying-the.jpg" />
+        <br>
+        <br>
+        <img class="img"
+            src="https://static1.squarespace.com/static/54905286e4b050812345644c/t/5817b096d2b857d06f49afc0/1477947575711/" />
+        <br>
+        <br>
+        <img class="img" src="https://th.bing.com/th/id/OIP.Rixmv5oKwjpfWxB3X_siQwHaHa?pid=ImgDet&rs=1" />
+        <br>
+        <br>
+        <img class="img" src="https://i.pinimg.com/originals/f7/49/17/f7491773576fe0813c0192f562119614.jpg" />
+        <br>
+        <br>
+        <img class="img" src="https://i.pinimg.com/originals/69/62/27/696227008a2762a467891f07e8e8ffcf.jpg  " />
+        <br>
+        <br>
+        <img class="img" src=" https://i.pinimg.com/originals/56/77/72/567772b447b58d299fc4191fd26ceff6.jpg " />
+        <br>
+        <br>
+        <img class="img" src=" https://i.pinimg.com/originals/4f/6b/96/4f6b96f28ae7aa6d2c33df850066f2fb.jpg  " />
+        <br>
+        <br>
+        <img class="img" src=" https://i.pinimg.com/originals/f7/49/17/f7491773576fe0813c0192f562119614.jpg " />
+        <br>
+        <br>
+        <img class="img" src=" https://th.bing.com/th/id/OIP.cpN37f_krKAkcGli7S_CAQHaJQ?pid=ImgDet&rs=1 " />
+        <br>
+        <br>
+        <img class="img" src="  " />
+        <br>
+        <br>
+        <img id="img" src="  " />
+        <br>
+        <br>
+        <img id="img" src="  " />
+    </div>
+    <div class="introduce">
+
+        <h2 id="info">What is mathematic?</h2>
+
+        <p id="ans">1. The abstract science of number, quantity, and space,
+            either as abstract concepts (pure mathematics)
+            , or as applied to other disciplines such as physics
+            and engineering (applied mathematics).
+
+            <br>
+            2.Mathematics is one of the most important subjects.
+            Mathematics is a subject of numbers, shapes, data, measurements
+            and also logical activities. It has a huge scope in every field of our life, such as medicine,
+            engineering, finance, natural science, economics, etc. We are all
+            surrounded by a mathematical world.
+        </p>
+
+        <h2 id="info"> Who is the Father of Mathematics?</h2>
+
+        <p> Archimedes, (287-212 BC) is known to be the Father of Mathematics</p>
+
+        <h2 id="info">History of Mathematics</h2>
+
+        <p>
+            Mathematics is a historical subject. It has been
+            explored by various mathematicians across the world since centuries,
+            in different civilizations. Archimedes, from the BC century is known
+            to be the Father of Mathematics. He introduced formulas to calculate
+            surface area and volume of solids. Whereas, Aryabhatt, born in 476 CE,
+            is known as the Father of Indian Mathematics.
+            <br>
+            In the 6th century BC, the study of mathematics
+            began with the Pythagoreans, as a 'demonstrative discipline '.
+            The word mathematics originated from the Greek word 'mathema'
+            , which means 'subject of instruction'.
+            <br>
+            Another mathematician, named Euclid, introduced
+            the axiom, postulates, theorems and proofs, which are also used in today's mathematics.
+            <br>
+            History of Mathematics has been an ancient study and is described
+            by each part of the world, in a varying method. There were many mathematicians who have given
+            different theories for many concepts, which we are applying in modern mathematics.
+        </p>
+
+        <h2 id="info">Why is Mathematics an important subject?</h2>
+
+        <p>
+            Learning mathematics will help students to build their logical thinking
+            and problem solving skills. It has huge applications in day to day life.
+            The basic arithmetic operations such as addition, subtraction,
+            multiplication and division are the most important part of our lives.
+            Based on these operations, we do numerous calculations.
+            Maths Helps with the Finances
+            It Helps to Tell Time.
+            for more
+            <button><a href="impo.html">click</a></button>
+        </p>
+
+        <h2 id="info">Basic Mathematics</h2>
+
+        <p>
+            The fundamentals of mathematics begin with arithmetic
+            operations such as addition, subtraction, multiplication
+            and division. These are the basics that every student learns
+            in their elementary school. Here is a brief of these operations.
+
+            Addition: Sum of numbers (Eg. 1 + 1 = 2)
+            Subtraction: Difference between two or more numbers (Eg. 3-2= 1)
+            Multiplication: Product of two or more numbers (Eg. 3 x 2 = 6)
+            Division: Dividing a number into equal parts (Eg. 4 ÷ 2 = 2, 4 is divided in 2 equal parts)</p>
+
+        <h2 id="info">Number are also show in roman number</h2>
+
+        <p>
+            Numbers, which we use for calculations, had variations
+            in the medieval period.
+            The Romans introduced the Roman numerals that uses English
+            alphabets to represent a number, such as:
+
+        <table>
+            <td>1- I</td>
+            <td>2 - II</td>
+            <td>3 - III</td>
+            <td>4 - IV</td>
+            <td>5 - V</td>
+            <td>6 - VI</td>
+            <td>7 - VII</td>
+            <td>8 - VIII</td>
+            <td>9 - IX</td>
+        </table>
+        </p>
+
+        <h2 id="info"></h2>
+        <p>
+            Symbols in Mathematics
+            Some of the basic and most important symbols, used in mathematics, are listed below in the table.
+        <table>
+            <tr>
+                <td> Symbol </td>
+                <td> Name </td>
+                <td> Meaning </td>
+                <td> Application </td>
+            </tr>
+            <tr>
+                <td> ≠ </td>
+                <td> not equal sign </td>
+                <td> inequality </td>
+                <td> 11 ≠ 6 </td>
+            </tr>
+            <tr>
+                <td> = </td>
+                <td> equals sign </td>
+                <td> equality </td>
+                <td> 4 = 2 + 2 </td>
+            </tr>
+            <tr>
+                <td>
+                    < </td>
+                <td> strict inequality </td>
+                <td> less than </td>
+                <td> 6 < 11 </td>
+            </tr>
+            <tr>
+                <td> > </td>
+                <td> strict inequality </td>
+                <td> greater than </td>
+                <td> 9 > 8 </td>
+            </tr>
+            <tr>
+                <td> [ ] </td>
+                <td> brackets </td>
+                <td> calculate expression inside first </td>
+                <td> [2×5] + 7 = 17 </td>
+            </tr>
+            <tr>
+                <td> ( ) </td>
+                <td> parentheses </td>
+                <td> calculate expression inside first </td>
+                <td> 3 × (3 + 7) = 30
+            </tr>
+            <tr>
+                <td> − </td>
+                <td> minus sign </td>
+                <td> subtraction </td>
+                <td> 5 − 2 = 3 </td>
+            </tr>
+            <tr>
+                <td> + </td>
+                <td> plus sign </td>
+                <td> addition </td>
+                <td> 4 + 5 = 9 </td>
+            </tr>
+            <tr>
+                <td> × </td>
+                <td> times sign </td>
+                <td> multiplication </td>
+                <td> 4 × 3 = 12 </td>
+            </tr>
+            <tr>
+                <td> * </td>
+                <td> asterisk </td>
+                <td> multiplication </td>
+                <td> 2 * 3 = 6 </td>
+            </tr>
+            <tr>
+                <td> ÷ </td>
+                <td> division sign / obelus </td>
+                <td> division </td>
+                <td> 15 ÷ 5 = 3 </td>
+            </tr>
+        </table>
+        </p>
+
+        <h2 id="info">for Classes notes, u can visit this website</h2>
+
+        <table>
+
+            <td><a href="https://byjus.com/ncert-books-for-class-1-maths/">Class 1</a></td>
+            <td><a href="https://byjus.com/ncert-books-for-class-2/">Class 2 </a></td>
+            <td><a href="https://byjus.com/ncert-solutions-class-3-maths/">Class 3 </a></td>
+            <td><a href="https://www.vedantu.com/ncert-books/ncert-books-class-4-maths">Class 4 </a></td>
+            <td><a href="https://byjus.com/ncert-books-for-class-5-maths/">Class 5 </a></td>
+            <td><a href="https://www.vedantu.com/ncert-books/ncert-books-class-6-maths">Class 6 </a></td>
+            <td><a href="https://www.embibe.com/exams/ncert-books-for-class-7-maths/">Class 7 </a></td>
+            <td><a href="https://www.vedantu.com/ncert-solutions/ncert-solutions-class-8-maths">Class 8 </a></td>
+            <td><a href="https://www.ncertbooks.guru/ncert-books-class-9-maths/">Class 9 </a></td>
+            <td><a href="https://ncertbooks.solutions/ncert-books-class-10/maths/amp/">Class 10 </a></td>
+
+        </table>
+    </div>
+
+    <div class="sq">
+        <div id="calculate" align="left">
+            Calculator
+        </div>
+
+        <form name="Calculator">
+
+            <table id="mcal" border="2" align="left">
+
+                <tr>
+                    <td>
+                        <input type="text" name="Input" Size="15" id="display">
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <input class="key" type="button" style="font-size:15px" value=" 1 "
+                            OnClick="Calculator.Input.value += '1'">
+                        <input class="key" type="button" style="font-size:15px" value=" 2 "
+                            OnCLick="Calculator.Input.value += '2'">
+                        <input class="key" type="button" style="font-size:15px" value=" 3 "
+                            OnClick="Calculator.Input.value += '3'">
+                        <input class="key" type="button" style="font-size:15px" value=" + "
+                            OnClick="Calculator.Input.value += ' + '">
+                        <br>
+                        <input class="key" type="button" style="font-size:15px" value=" 4 "
+                            OnClick="Calculator.Input.value += '4'">
+                        <input class="key" type="button" style="font-size:15px" value=" 5 "
+                            OnCLick="Calculator.Input.value += '5'">
+                        <input class="key" type="button" style="font-size:15px" value=" 6 "
+                            OnClick="Calculator.Input.value += '6'">
+                        <input class="key" type="button" style="font-size:15px" value=" - "
+                            OnClick="Calculator.Input.value += ' - '">
+                        <br>
+                        <input class="key" type="button" style="font-size:15px" value=" 7 "
+                            OnClick="Calculator.Input.value += '7'">
+                        <input class="key" type="button" style="font-size:15px" value=" 8 "
+                            OnCLick="Calculator.Input.value += '8'">
+                        <input class="key" type="button" style="font-size:15px" value=" 9 "
+                            OnClick="Calculator.Input.value += '9'">
+                        <input class="key" type="button" style="font-size:15px" value=" * "
+                            OnClick="Calculator.Input.value += ' * '">
+                        <br>
+                        <input class="key" type="button" style="font-size:15px" value=" c "
+                            OnClick="Calculator.Input.value = ''">
+                        <input class="key" type="button" style="font-size:15px" value=" 0 "
+                            OnClick="Calculator.Input.value += '0'">
+                        <input class="key" type="button" style="font-size:15px" value=" = "
+                            OnClick="Calculator.Input.value = eval(Calculator.Input.value)">
+                        <input class="key" type="button" style="font-size:15px" value=" / "
+                            OnClick="Calculator.Input.value += ' / '">
+                        <br>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <br><br><br><br><br><br><br>
+        <br><br><br>
+        <div id="table">
+            Table
+        </div>
+        <a href="tablee.html">For Table click here</a>
+        <br>
+        <br>
+        <div id="table">
+            Algebraic formula's
+        </div>
+        <br>
+        <br>
+        <embed src="algebraic.pdf" width="200" />
+        <br>
+        <a href="algebraic.pdf" attributes-list> download </a>
+        <br>
+        <br>
+        <div id="table">
+            Calcus formula's
+        </div>
+        <br>
+        <br>
+        <embed src="https://tamucc.edu/academics/casa/assets/documents/calculus-formula-sheet.pdf" width="200" />
+        <br>
+        <a href="https://tamucc.edu/academics/casa/assets/documents/calculus-formula-sheet.pdf" attributes-list>
+            download </a>
+        <br>
+        <br>
+        <div id="table">
+            Geomertic formula's
+        </div>
+        <br>
+        <br>
+        <embed src="geometry cheat sheet.pdf" width="200" />
+        <br>
+        <a href="geometry cheat sheet.pdf" attributes-list> download </a>
+        <br>
+        <br>
+        <div id="table">
+            trigometric formula's
+        </div>
+        <br>
+        <br>
+        <embed src="trgi.pdf" width="200" />
+        <br>
+        <a href="trgi.pdf" attributes-list> download </a>
+
+</body>
+
+</html>

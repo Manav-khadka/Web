@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css" />
+    <style>
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: black ;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h>Mathematics</h>   
+    </div>
+    <nav>
+      <a href="onlog.html" >Home</a>
+      <a href="google.html">google</a>
+      <a href="query.html" >Contact us</a>
+      <a href="home.html"  id="log" >log out</a>
+    </nav>
+        <div class="container">
+        <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Or leave us a message:</p>
+        </div>
+    <div class="row">
+        <div class="column">
+        <img src="https://th.bing.com/th/id/OIP.wKQauObvaxbxBs9cuzAbOwHaEo?pid=ImgDet&rs=1" style="width:100%">
+    </div>
+    <div class="column">
+        <form action=" ">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Number</label>
+        <input type="text" id="lname" name="lastname" placeholder="Number">
+        <label for="subject">Subject/Query</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+        </div>
+        </div>
+        </div>
+        </nav>
+</body>
+</html>

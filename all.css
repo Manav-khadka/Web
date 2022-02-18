@@ -1,0 +1,71 @@
+.heading
+{
+   padding: 0ch;
+   margin: 0ch;
+   padding: 0%;
+   border: 0ch;
+   background-image: url(https://th.bing.com/th/id/OIP.wKQauObvaxbxBs9cuzAbOwHaEo?pid=ImgDet&rs=1);
+   color: black;
+   width: 100vw;
+   height: 30vh;
+   text-align: center;
+   font-size: 3vw;
+   font-family: Apple Chancery, cursive;
+}
+nav
+{
+   background-color: #333;
+   overflow: hidden;
+}
+
+nav a {
+   text-decoration: none;
+   padding: 1vw;
+   text-align: center;
+   float: left;
+   color: white;
+}
+body{
+   background-image: url(OIP1.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100vw;
+}
+.form{
+   background-color: rgb(167, 211, 204);
+   text-align: center;
+   padding: 3vw;
+   align-items: center;
+   margin: 2px;
+   margin-top: 2px;
+   margin-bottom: 2PX;
+   margin-left: 13vw;
+    margin-right: 13vw;
+  }
+#title{
+  font-size: 2vw;
+}
+/* LOGIN */
+.form{
+   background-color: rgb(167, 211, 204);
+   text-align: center;
+   padding: 3vw;
+   align-items: center;
+   margin: 2px;
+   margin-top: 2px;
+   margin-bottom: 2PX;
+   margin-left: 13vw;
+    margin-right: 13vw;
+  } 
+.title{
+  font-size: 2vw;
+  }
+#google{
+   text-align-last: center;
+   
+   }
+#gsreach{
+   font-size: 10vh;
+   text-align: center;
+   
+}

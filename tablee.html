@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            background-image: url(https://th.bing.com/th/id/OIP.wKQauObvaxbxBs9cuzAbOwHaEo?pid=ImgDet&rs=1);
+            color: black;
+            text-align: center;
+            font-size: 3vw;
+            font-family: Apple Chancery, cursive;
+        }
+        #table{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+     <p id="table"> Table </p>
+    </div>
+</body>
+<script type="text/javascript">
+    var num=prompt("Enter a number you want to know that table" , " ");
+    document.write('<table border="3" cellspacing="3" text-align:center> ');
+    for(var i=1; i<=10; i++)
+      {
+        document.write("<div >");
+        document.write('<tr><td bgcolor="white">' );
+        document.write( num+ " X " + i + " = " + i*num );
+        document.write("</div>");
+      }
+
+</script>
+</html>
